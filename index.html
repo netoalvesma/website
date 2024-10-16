@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <header>
+        <h1>Neto Alves</h1>
+        <nav>
+            <ul>   
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p> &emsp;  Olá, meu nome é Neto Alves, e atualmente estou cursando Análise e Desenvolvimento de Sistemas, 
+                onde tenho me dedicado a adquirir e aprimorar habilidades na área de tecnologia da informação.
+                Minha formação acadêmica está me capacitando para entender a estruturação de sistemas, o 
+                desenvolvimento de software e a análise de dados, o que tem sido essencial para meu 
+                crescimento como profissional.
+                Como desenvolvedor, busco sempre estar atualizado com as novas tendências tecnológicas, 
+                praticando o desenvolvimento de soluções inovadoras e eficientes. Tenho um grande interesse 
+                em programação e estou constantemente explorando novas linguagens e ferramentas que possam 
+                otimizar a criação de sistemas robustos e escaláveis.               
+                Ao longo do meu trajeto como estudante e profissional, tenho me desafiado em projetos 
+                práticos que me permitem aplicar o que aprendo em sala de aula e melhorar minhas competências 
+                técnicas e analíticas. Minha abordagem é sempre voltada para a resolução de problemas e a 
+                criação de soluções que gerem valor real para os usuários e clientes.              
+                Estou animado com o futuro da tecnologia e com as oportunidades de contribuir com o 
+                desenvolvimento de sistemas que possam impactar positivamente a sociedade e os negócios.</p>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projeto">
+                    <h3>Sistema de Gerenciamento de Tarefas</h3>
+                    <p>Desenvolvi um sistema de gerenciamento de tarefas voltado para pequenas equipes, 
+                       permitindo o acompanhamento eficiente do progresso dos projetos. A aplicação permite 
+                       criar, editar e organizar tarefas, atribuí-las a membros da equipe e definir prazos. 
+                       Utilizei tecnologias como JavaScript, Node.js e MongoDB para o backend, 
+                       garantindo um sistema escalável e responsivo, enquanto no frontend, implementei uma 
+                       interface intuitiva usando React, facilitando a experiência do usuário. 
+                       O projeto também conta com funcionalidades de autenticação e autorização para garantir 
+                       a segurança dos dados.</p>
+                </div>
+                <div class="projeto">
+                    <h3>Plataforma de Controle Financeiro Pessoal</h3>
+                    <p>Desenvolvi uma plataforma web para controle financeiro pessoal que permite aos usuários 
+                       gerenciar suas finanças de forma prática e intuitiva. A aplicação possibilita o cadastro de 
+                       receitas e despesas, categorização de gastos, e geração de relatórios mensais para análise 
+                       financeira. Utilizei Python com Django no backend para lidar com a lógica de negócios e 
+                       banco de dados relacional, e no frontend implementei uma interface responsiva com HTML, 
+                       CSS e JavaScript. A aplicação também oferece gráficos dinâmicos para visualização das 
+                       finanças e recursos de exportação de dados para planilhas.</p>
+                </div>
+                <div class="projeto">
+                    <h3>Aplicativo de Monitoramento de Hábitos</h3>
+                    <p>Desenvolvi um aplicativo mobile para monitoramento de hábitos diários, com foco em ajudar 
+                       os usuários a criar e manter rotinas saudáveis. O app permite o cadastro de hábitos, como 
+                       leitura, exercícios e meditação, além de enviar lembretes diários para incentivar a 
+                       continuidade. Utilizei Flutter para criar um aplicativo multiplataforma (iOS e Android), 
+                       integrando Firebase para o armazenamento de dados em tempo real. A interface do usuário 
+                       foi projetada para ser simples e intuitiva, permitindo uma fácil visualização do progresso 
+                       e estatísticas semanais de cada hábito.</p>
+                </div>
+                <div class="projeto">
+                    <h3>E-commerce para Produtos Artesanais</h3>
+                    <p>Desenvolvi uma plataforma de e-commerce voltada para a venda de produtos artesanais. 
+                       O sistema permite a criação de contas de vendedores e compradores, gerenciamento de 
+                       estoque, processamento de pedidos e integração com gateways de pagamento. A aplicação 
+                       foi desenvolvida utilizando Node.js e Express no backend, com um banco de dados MySQL 
+                       para o gerenciamento dos produtos e transações. No frontend, utilizei React para criar 
+                       uma interface responsiva e moderna, proporcionando uma experiência de compra intuitiva. 
+                       O sistema também inclui funcionalidades como carrinho de compras, avaliações de produtos 
+                       e um painel de administração para os vendedores acompanharem suas vendas e pedidos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Neto Alves. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
